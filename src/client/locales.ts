@@ -61,6 +61,9 @@ export const zh = {
   'caps.error.partialEnable': '已启用，但清理存档失败：{error}',
   'caps.error.baseProfile': '该提供方在组合层也声明了配置，禁用无法让它下线，因此不提供此操作。',
   'caps.error.unavailable': '无法切换：插件的存档命名空间未注册。',
+  'effort.label': '思考强度',
+  'effort.hint': '当前档位：{level}。修改从下一条请求开始生效。',
+  'effort.failed': '切换思考档位失败，请重试。',
 }
 
 export type CapsKey = keyof typeof zh
@@ -118,6 +121,9 @@ export const en: Record<CapsKey, string> = {
   'caps.error.partialEnable': 'Enabled, but clearing the archive failed: {error}',
   'caps.error.baseProfile': 'The composition layer also declares this provider, so disabling cannot take it down; the action is not offered.',
   'caps.error.unavailable': 'Cannot toggle: the plugin archive namespace is not registered.',
+  'effort.label': 'Thinking',
+  'effort.hint': 'Current level: {level}. A change applies from the next request.',
+  'effort.failed': 'Could not switch the thinking level; please retry.',
 }
 
 /**
